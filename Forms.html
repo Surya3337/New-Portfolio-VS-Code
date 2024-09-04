@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Elements</title>
+</head>
+<body>
+    <h1>My Profile</h1>
+    <img src="My Image.jpg"height="200" width="200" alt="image">
+    <form>
+    <h1>Form Elements</h1>
+    <!--creating a text input for username-->
+    <label for="Username"><b>Username:</b></label>
+    <input type="text" id="Username" name="Username" placeholder="Enter Username" minlength="5" maxlength="10" required >
+    <br>
+    <br>
+    <!--creating form validation with email-->
+    <label for="email">Email</label>
+    <input type="email"  required><br>
+    <!--creating password--> 
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" required>
+    <br><br>
+    <!---creating a radio for gender-->
+    <label><b>Gender</b></label>
+    <br>
+    <input type="radio" id="maleradio" name="Gender" value="male">
+    <label for="maleradio">male</label>
+
+    <input type="radio" id="femaleradio" name="Gender" value="female">
+    <label for="femaleradio">female</label><br>
+    <br>
+    <!--creating a checkbox for programming languages-->
+     <label><b>Programming Languages</b></label>
+     <br>
+    <input type="checkbox" id="C" name="coding" value="C">
+    <label for="C">C</label>
+    <input type="checkbox" id="Python" name="Coding" value="Python">
+    <label for="Python">Python</label>
+    <br>
+    <br>
+    <!--creating textarea to write a commment-->
+    <label for="comment"><b>Leave your Comment:</b></label><br>
+    <textarea id="comment" name="comment" rows="4" cols="50"
+    placeholder="Leave your Comment here..."></textarea>
+    <br><br>
+    <!--creating drop table using select tag-->
+    <label for="Expert at"><b>Expert at</b></label>
+    <select id="Expert at" name="programming languages">
+        <option>Python</option>
+        <option>Java</option>
+        <option>C</option>
+    </select>
+    <br><br>
+    <!---creating submit button and reset button-->
+    <button type="Submit">Submit</button>
+    <button type="Reset">Reset</button>
+    
+</form>
+    
+</body>
+</html>
